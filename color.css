@@ -1,0 +1,20 @@
+.divOne {
+    border: thick solid;    
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(0, 255, 0); */
+    /* opacity: 0.4; */
+    /* rgba to control opacity */
+    background-color: rgba(255, 0, 0,0.2);
+}
+body{
+    background: linear-gradient(#ff337788, #49ff2199 #0832ffef);
+}
+
+.rainbow {
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: conic-gradient(red, orange, yellow, green, blue, indigo, violet)
+}
